@@ -280,8 +280,21 @@ input:focus {
         justify-content: center;
         align-items: center;
         padding: 2rem;
-        z-index: -1;
+        /* z-index: -1; */
     }
+
+    .nav-bar {
+        /* border: 1px solid red; */
+        height: 100vh;
+        position: fixed;
+        width: 350px;
+        height: 100%;
+        background-color: #000;
+        z-index: 100;
+        /* transform: translateX(-500px); */
+        transition: all 0.5s ease-in-out;
+    }
+
     .fashion-text {
         /* border: 1px solid red; */
         display: flex;
@@ -330,6 +343,17 @@ input:focus {
         position: absolute;
         justify-content: flex-end;
         margin-right: 1rem;
+    }
+    .nav-bar {
+        /* border: 1px solid red; */
+        height: 100vh;
+        position: fixed;
+        width: 350px;
+        height: 100%;
+        background-color: #000;
+        z-index: 100;
+        /* transform: translateX(-500px); */
+        transition: all 0.5s ease-in-out;
     }
     .search-form {
         /* border: 1px solid red; */
